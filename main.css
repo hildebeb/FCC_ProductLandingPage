@@ -1,7 +1,74 @@
-html body {
-    background-color: #FAF
+*{ /*This is a reset*/
+    margin: 0;
+    padding: 0;
 }
 
-#nav {
-    display: inline;
+html body {
+    background-color: #FFF
+}
+
+#header {
+    background-image:url('image/headerimage.jpg');
+    background-size: cover;
+    background-position:center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    padding: 0 20px;
+    text-align: center;
+}
+
+#nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+#nav li {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    float: right;
+}
+   
+#nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+#nav a:hover {
+    color: #111;
+}
+
+#section-a {
+    background-color: #f9f9f9;
+    color: #000;
+}
+
+#section-a p {
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+#video {
+    justify-content: top;
+    align-items: center;
+    width: 320px;
+    height: 240px;
+}
+
+#form {
+    padding: 20px 0;
+}
+
+#form label {
+    color: #fff;
+}
+
+#email {
+
 }
