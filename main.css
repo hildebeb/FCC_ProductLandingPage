@@ -21,6 +21,7 @@
 
 #nav {
     width: 70%;
+    
 }
 
 nav ul {
@@ -49,7 +50,8 @@ nav ul {
 #banner {
     display: flex;
     height: auto;
-    background-image: url(image/arrowsimg.jpg)
+    width: 100%;
+    background-image: url(image/20171028_164644.jpg)
 }
 
 #banner-text {
@@ -62,5 +64,5 @@ nav ul {
 .main-content {
     display: flex;
     flex-direction: row;
-    padding: 5%;
+    padding: 5% 20% 5% 20%;
 }
