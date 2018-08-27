@@ -1,74 +1,66 @@
-*{ /*This is a reset*/
-    margin: 0;
-    padding: 0;
-}
-
-html body {
-    background-color: #FFF
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 #header {
-    background-image:url('image/headerimage.jpg');
-    background-size: cover;
-    background-position:center;
-    height: 100vh;
     display: flex;
-    flex-direction: column;
-    justify-content: top;
+    flex-wrap: wrap;
     align-items: center;
-    padding: 0 20px;
-    text-align: center;
+    background-image: linear-gradient(to right, green , black);
+    color: #fff;
+    height: 70px;
 }
 
-#nav ul {
-    list-style: none;
-    text-align: center;
-    padding: 0;
-    margin: 0;
+#header-img {
+    display: flex;
+    width: 30%;
+    padding: 16px 40px;
 }
+
+#nav {
+    width: 70%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
 #nav li {
-    font-family: 'Oswald', sans-serif;
-    font-size: 1.2em;
-    float: right;
+    padding: 10px 10px;
+    list-style-type: none;
 }
-   
-#nav a {
-    text-decoration: none;
+
+#nav-link {
     color: #fff;
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-}
-
-#nav a:hover {
-    color: #111;
-}
-
-#section-a {
-    background-color: #f9f9f9;
-    color: #000;
-}
-
-#section-a p {
     font-size: 20px;
-    padding: 10px 20px;
+    text-decoration: none;
+    padding: 0 15px;
 }
 
-#video {
-    justify-content: top;
-    align-items: center;
-    width: 320px;
-    height: 240px;
+#nav-link:hover {
+    color: green;
+    font-weight: bold;
 }
 
-#form {
-    padding: 20px 0;
+#banner {
+    display: flex;
+    height: auto;
+    background-image: url(image/arrowsimg.jpg)
 }
 
-#form label {
+#banner-text {
+    display: flex;
+    padding: 15%;
     color: #fff;
+    text-align: center;
 }
 
-#email {
-
+.main-content {
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
 }
