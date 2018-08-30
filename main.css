@@ -119,14 +119,6 @@ body {
 	font-weight: bold;
 }
 
-/*#email {
-	border: 1px solid #999;
-	border-radius: 3;
-	font-family: inherit;
-    font-size: 100%;
-    -webkit-appearance: none;
-}*/
-
 #email {
     padding:5px; 
     border:2px solid #ccc; 
