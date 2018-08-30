@@ -6,16 +6,16 @@
 </head>
 <body>
 	<div id="header-parent">
-		<header id="header-container">
-			<div id="logo">
+		<header id="header">
+			<div id="header-img">
 				<h1>Arrowhil Archery</h1>
 			</div>
-			<nav>
-				<ul id="nav-bar">
+			<nav id="nav-bar">
+				<ul id="nav">
 					<li id="nav-link"><a href="index.html">Home</a></li>
 					<li id="nav-link"><a href="#about">About</a></li>
 					<li id="nav-link"><a href="#video">Products</a></li>
-					<li id="nav-link"><a href="#">Contact</a></li>
+					<li id="nav-link"><a href="#email">Contact</a></li>
 				</ul>
 			</nav>
 		</header>
@@ -40,5 +40,12 @@
 		</div>
 	</div>
 	<hr>
+	<div id="form-container">
+		<form id="form" action="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" method="POST" target="_blank">
+			<label for="contact" id="email-label">To hear from us submit your email:</label>
+			<input type="email" name="contact" id="email" placeholder="Your Email!!" required>
+			<input type="submit" id="submit">
+		</form>
+	</div>
 </body>
 </html>
