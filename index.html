@@ -1,21 +1,48 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>FCC Product Landing Page Project</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <script src="" async defer></script>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <title>GreyBeard Web Development</title>
+</head>
+<body>
+    <div id="fixed-header">
+    <header id="header">
+        <div id="header-image">
+            <h1><span class="highlight">GreyBeard </span> Web Development</h1>
+            <img src="" alt="" id="header-img">
+        </div>
+        <nav id="nav-bar">
+            <ul>
+            <li><a class="nav-link" href="#home">Home</a></li>
+            <li><a class="nav-link" href="#email">Contact</a></li>
+            <li><a class="nav-link" href="#video">Product Video</a></li>
+            </ul>
+        </nav>
+    </header>
+    </div>
+    <section class="showcase" id="home">
+        <img src="img/pexels-photo-169573.jpeg" alt="coding">
+    </section>
+    <section id="newsletter">
+        <h1>Contact</h1>
+        <h3>For more information please submit your email and you will be contacted.</h3>
+        <form id="form" action="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" method="POST">
+                <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+            <div>
+            <input type="submit" value="Submit" id="submit">
+            </div>
+        </form>
+    </section>
+    <section id="video-container">
+        <video src="video/Travaho.mp4" type="video/mp4" autoplay loop muted id="video"></video>
+    </section>
+    <footer>
+        <p>GreyBeard Web Development, Copyright &copy; 2018</p>
+        <img src="img/CSS3_and_HTML5_logos_and_wordmarks.svg.png" alt="html5/CSS3_and_HTML5_logos_and_wordmarks">
+    </footer>
+</body>
 </html>
